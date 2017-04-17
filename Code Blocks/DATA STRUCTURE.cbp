@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="DATA STRUCTURE" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/DATA STRUCTURE" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/DATA STRUCTURE" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="AVL.h" />
+		<Unit filename="BST.h" />
+		<Unit filename="BST_threaded.h" />
+		<Unit filename="Vector.h" />
+		<Unit filename="arraySumViaPointers.h" />
+		<Unit filename="binary search.h" />
+		<Unit filename="binaryTree_array.h" />
+		<Unit filename="bubble sort.h" />
+		<Unit filename="circular linked list.h" />
+		<Unit filename="circularQueue_array.h" />
+		<Unit filename="circularQueue_list.h" />
+		<Unit filename="dequeue.h" />
+		<Unit filename="double linked list.h" />
+		<Unit filename="expression tree.h" />
+		<Unit filename="fibonacci search.h" />
+		<Unit filename="heap sort.h" />
+		<Unit filename="heap tree.h" />
+		<Unit filename="insertion sort.h" />
+		<Unit filename="linear search.h" />
+		<Unit filename="links.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="merge sort.h" />
+		<Unit filename="out.h" />
+		<Unit filename="polish notation.h" />
+		<Unit filename="queue_array.h" />
+		<Unit filename="queue_list.h" />
+		<Unit filename="quick sort.h" />
+		<Unit filename="selection sort.h" />
+		<Unit filename="single linked list.h" />
+		<Unit filename="sorting in files.h" />
+		<Unit filename="stack-2_array-1.h" />
+		<Unit filename="stack_array.h" />
+		<Unit filename="stack_list.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
