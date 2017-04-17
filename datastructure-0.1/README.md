@@ -1,5 +1,5 @@
 
-#This is my DataStructure Project main repository.
+**This is my DataStructure Project main repository.**
 __You can install on your linux machine by typing following commands__
 
 
