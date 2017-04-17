@@ -28,30 +28,30 @@ queue_l()
         switch(choice)
         {
         case 1:
-            system("cls");
+            system("clear");
             printf ("\t\t\t\tImplementation of Queue with link_qled list\n");
             printf("Input the element for adding in queue : ");
             scanf("%d",&item);
             insert_ql(item);
             break;
         case 2:
-            system("cls");
+            system("clear");
             printf ("\t\t\t\tImplementation of Queue with link_qled list\n");
             item=del_ql();
             printf("Deleted element is  %d\n",item);
             break;
         case 3:
-            system("cls");
+            system("clear");
             printf ("\t\t\t\tImplementation of Queue with link_qled list\n");
             printf("Element at the front is %d\n",peek_ql());
             break;
         case 4:
-            system("cls");
+            system("clear");
             printf ("\t\t\t\tImplementation of Queue with link_qled list\n");
             display_ql();
             break;
         case 5:
-            system("cls");
+            system("clear");
             printf ("\t\t\t\tImplementation of Queue with link_qled list\n");
             return;
             break;

@@ -15,7 +15,7 @@ void heaptree( )
     int i,choice,num;
 
     arr[0]= MAX_VAL;
-    system("cls");
+    system("clear");
     printf("\t\t\t\tHeap Tree\n");
     while(1)
     {
@@ -30,14 +30,14 @@ void heaptree( )
         switch(choice)
         {
         case 1:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tHeap Tree\n");
             printf("Enter the number to be inserted : ");
             scanf("%d",&num);
             insert_heap(num,arr,&hsize);
             break;
         case 2:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tHeap Tree\n");
             if(hsize==0)
                 printf("Heap is empty \n");
@@ -48,12 +48,12 @@ void heaptree( )
             }
             break;
         case 3:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tHeap Tree\n");
             display_ht(arr,hsize);
             break;
         case 4:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tHeap Tree\n");
             printf("Enter size of the array ");
             scanf("%d",&hsize);
@@ -63,15 +63,15 @@ void heaptree( )
             buildHeap_ht(arr,hsize);
             break;
         case 5:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tHeap Tree\n");
             exit(1);
         case 6:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tHeap Tree\n");
             return;
         default:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tHeap Tree\n");
             printf("Wrong choice\n");
         }

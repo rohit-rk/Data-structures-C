@@ -11,7 +11,7 @@ void sortfiles()
 {
     st *p[10];
     int i,j=0;
-    system("cls");
+    system("clear");
     printf("\t\t\t\tPROGRAM TO SORT DATA FROM FILES\n");
     for(i=0; i<10; i++)
     {

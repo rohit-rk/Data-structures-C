@@ -19,7 +19,7 @@ int binarySearch(int arr[], int size, int item)
 
 main()
 {
-    system("cls");
+    system("clear");
     printf ("\t\t\t\tBINARY SEARCH\n");
 	int i, n, item, arr[MAX], index;
 	printf("Enter the number of elements : ");

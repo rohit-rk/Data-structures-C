@@ -14,7 +14,7 @@ main( )
     int i,choice,num;
 
     arr[0]= MAX_VAL;
-    system("cls");
+    system("clear");
     printf("\t\t\t\tHeap Tree\n");
     while(1)
     {
@@ -28,14 +28,14 @@ main( )
         switch(choice)
         {
         case 1:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tHeap Tree\n");
             printf("Enter the number to be inserted : ");
             scanf("%d",&num);
             insert(num,arr,&hsize);
             break;
         case 2:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tHeap Tree\n");
             if(hsize==0)
                 printf("Heap is empty \n");
@@ -46,12 +46,12 @@ main( )
             }
             break;
         case 3:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tHeap Tree\n");
             display(arr,hsize);
             break;
         case 4:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tHeap Tree\n");
             printf("Enter size of the array ");
             scanf("%d",&hsize);
@@ -61,11 +61,11 @@ main( )
             buildHeap(arr,hsize);
             break;
         case 5:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tHeap Tree\n");
             exit(1);
         default:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tHeap Tree\n");
             printf("Wrong choice\n");
         }

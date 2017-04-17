@@ -1,20 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include<conio.h>
-#include<header.h>
+#include "conio.h"
+#include"header.h"
 void main()
 {
     int i;
     int choice;
-    system("cls");
+    system("clear");
     show();
-    getout();
+    //getout();
+    printf("Press enter to continue");
     getch();
-    system("cls");
+    system("clear");
     show();
     while(choice)
     {
-        printf("\nPROGRAMS:\n");
+        printf("\nALGORITHMS AVAILABLE:\n");
         printf("\t1.LINKED LISTS\n");
         printf("\t2.STACKS\n");
         printf("\t3.QUEUES\n");
@@ -57,16 +58,15 @@ void main()
             sortfiles();
             break;
         case 10:
-            system("cls");
-            getout();
+            system("clear");
+            //getout();
             exit(0);
             break;
         default:
             printf("\n\t Invalid choice\n");
         }
         system("pause");
-        system("cls");
+        system("clear");
         main();
     }
 }
-

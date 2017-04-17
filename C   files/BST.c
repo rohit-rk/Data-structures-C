@@ -148,7 +148,7 @@ main()
     int key,ht;
     struct BST *new_node, *root, *tmp, *parent;
     root = NULL;
-    system("cls");
+    system("clear");
     int k1,k2;
     printf("\t\t\t\tBinary Search Tree\n");
     do
@@ -174,7 +174,7 @@ main()
         case 1:
             do
             {
-                system("cls");
+                system("clear");
                 printf("\t\t\t\tBinary Search Tree\n");
                 new_node = get_node();
                 printf("\nEnter The Element ");
@@ -192,7 +192,7 @@ main()
             break;
 
         case 2:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tBinary Search Tree\n");
             printf("\nEnter Element to be searched :");
             scanf("%d", &key);
@@ -205,7 +205,7 @@ main()
 			scanf("%d",&key);
 			root = bstdel(root,key);
         case 4:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tBinary Search Tree\n");
             if (root == NULL)
                 printf("Tree Is Not Created\n\n\n\n\n\n");
@@ -221,7 +221,7 @@ main()
             }
             break;
         case 5:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tBinary Search Tree\n");
             if (root == NULL)
                 printf("Tree Is Not Created\n\n\n\n\n\n");
@@ -254,13 +254,13 @@ main()
 				printf("Maximum key is %d\n", tmp->data );
 			break;
         case 10:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tBinary Search Tree\n");
             ht=height(root);
             printf("\nHeight of the tree is :%d\n\n\n\n\n\n",ht);
             break;
         case 11:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tBinary Search Tree\n");
             printf("Enter k1: ");
             scanf("%d",&k1);

@@ -30,22 +30,22 @@ void main ()
         switch (choice)
         {
         case 1:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tSTACK OPERATION\n");
             push();
             break;
         case 2:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tSTACK OPERATION\n");
             pop();
             break;
         case 3:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tSTACK OPERATION\n");
             display();
             break;
         case 4:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tSTACK OPERATION\n");
             return;
         }

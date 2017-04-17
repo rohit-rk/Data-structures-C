@@ -5,6 +5,18 @@
 #define BLANK ' '
 #define TAB '\t'
 #define MAX 50
+
+long int power(long int a,long int b)
+{
+long int i,temp=1;
+
+for(i=0;i<b;i++)
+{
+temp=temp*a;
+}
+return temp;
+}
+
 void push_p(long int symbol);
 long int pop_p();
 void infix_to_postfix();
@@ -30,7 +42,7 @@ void polish()
     long int value;
     char ch;
     top=-1;
-    system("cls");
+    system("clear");
     printf ("\t\t\t\tPOLISH NOTATION and EVALUATION\n");
     printf("Enter infix : ");
     gets(infix);
@@ -167,7 +179,7 @@ long int eval_post()
                 temp=b%a;
                 break;
             case '^':
-                temp=pow(b,a);
+                temp=power(b,a);
             }
             push_p(temp);
         }

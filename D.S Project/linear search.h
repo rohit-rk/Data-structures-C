@@ -3,7 +3,7 @@
 int linearSearch(int arr[], int n, int item);
 void linearsearch()
 {
-    system("cls");
+    system("clear");
     printf ("\t\t\t\tLINEAR SEARCH\n");
 	int i, n, item, arr[MAX_li], index;
 	printf("Enter the number of elements : ");
@@ -24,7 +24,7 @@ void linearsearch()
     printf("PRESS ANY BUTTON TO GO BACK");
     getch();
     return;
-}     //same main just replace LinearSearch(…) by the type of search
+}     //same main just replace LinearSearch(ï¿½) by the type of search
 int linearSearch(int arr[], int n, int item)
 {
 	int i=0;

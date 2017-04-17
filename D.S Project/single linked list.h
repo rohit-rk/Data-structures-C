@@ -42,38 +42,38 @@ void linkedlist_s()
         switch(ch)
         {
         case 1:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tSINGLE LINKED LIST\n");
             start=create_list_s(start);
             break;
         case 2:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tSINGLE LINKED LIST\n");
             display_s(start);
             break;
         case 3:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tSINGLE LINKED LIST\n");
             printf("Enter the element to be searched : ");
             scanf("%d",&data);
             search_s(start,data);
             break;
         case 4:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tSINGLE LINKED LIST\n");
             printf("Enter the element to be inserted : ");
             scanf("%d",&data);
             start=addatbeg_s(start,data);
             break;
         case 5:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tSINGLE LINKED LIST\n");
             printf("Enter the element to be inserted : ");
             scanf("%d",&data);
             start=addatend_s(start,data);
             break;
         case 6:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tSINGLE LINKED LIST\n");
             printf("Enter the element to be inserted : ");
             scanf("%d",&data);
@@ -82,7 +82,7 @@ void linkedlist_s()
             start=addafter_s(start,data,item);
             break;
         case 7:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tSINGLE LINKED LIST\n");
             printf("Enter the element to be inserted : ");
             scanf("%d",&data);
@@ -91,7 +91,7 @@ void linkedlist_s()
             start=addbefore_s(start,data,item);
             break;
         case 8:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tSINGLE LINKED LIST\n");
             printf("Enter the element to be inserted : ");
             scanf("%d",&data);
@@ -100,14 +100,14 @@ void linkedlist_s()
             start=addatpos_s(start,data,pos);
             break;
         case 9:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tSINGLE LINKED LIST\n");
             printf("Enter the element to be deleted : ");
             scanf("%d",&data);
             start=del_s(start, data);
             break;
         case 10:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tSINGLE LINKED LIST\n");
             start=reverse_s(start);
             break;
@@ -115,7 +115,7 @@ void linkedlist_s()
             return;
             break;
         default:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tSINGLE LINKED LIST\n");
             printf("Wrong choice\n");
         }

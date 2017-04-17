@@ -232,7 +232,7 @@ avl()
     root = NULL;
     tmp = NULL;
     parent = NULL;
-    system("cls");
+    system("clear");
     printf("\t\t\t\tAVL TREE\n");
     do
     {
@@ -250,7 +250,7 @@ avl()
         case 1:
             do
             {
-                system("cls");
+                system("clear");
                 printf("\t\t\t\tAVL TREE\n");
                 printf("\nEnter The Element ");
                 scanf("%d", &key);
@@ -262,7 +262,7 @@ avl()
             break;
 
         case 2:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tAVL TREE\n");
             printf("\nEnter Element to be searched :");
             scanf("%d", &key);
@@ -277,7 +277,7 @@ avl()
             break;
 
         case 3:
-            system("cls");printf("\t\t\t\tAVL TREE\n");
+            system("clear");printf("\t\t\t\tAVL TREE\n");
             if (root == NULL)
                 printf("Tree Is Not Created\n\n\n\n\n\n");
             else

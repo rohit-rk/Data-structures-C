@@ -37,7 +37,7 @@ void postorder(int tree[],int n,int k)
 }
 int main()
 {
-    system("cls");
+    system("clear");
     printf("\t\t\t\tBINARY TREE\n");
     int n,i,j,data,data2;
     printf("enter the number of nodes\n");
@@ -49,25 +49,25 @@ int main()
 
     for(i=1; i<=n; i++)
         printf("%d\n",tree[i]);
-    system("cls");
+    system("clear");
     printf("\t\t\t\tBINARY TREE\n");
     printf("\n\n");
     printf("preordre\n");
     preorder(tree,n,1);
     getch();
-    system("cls");
+    system("clear");
     printf("\t\t\t\tBINARY TREE\n");
     printf("\n");
     printf("postorder\n");
     postorder(tree,n,1);
     getch();
-    system("cls");
+    system("clear");
     printf("\t\t\t\tBINARY TREE\n");
     printf("\n");
     printf("inorder\n");
     inorder(tree,n,1);
     getch();
-    system("cls");
+    system("clear");
     printf("\t\t\t\tBINARY TREE\n");
     printf("the number whose ancestors required\n");
     scanf("%d",&data);
@@ -83,7 +83,7 @@ int main()
         printf("%d\n",tree[j]);
     }
     getch();
-    system("cls");
+    system("clear");
     printf("\t\t\t\tBINARY TREE\n");
     printf("the data whose decentent required\n");
     scanf("%d",&data2);

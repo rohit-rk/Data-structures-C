@@ -3,7 +3,7 @@ void getout()
     int i;
     for(i=0;i<97;i++)
         printf("=");
-    printf("\nSubmitted By:\t\t\t\t\t\t\t\t\tSubmitted To:  \t|\n");
+    printf("\nSubmitted To:\t\t\t\t\t\t\t\t\tSubmitted By:  \t|\n");
     for(i=0;i<97;i++)
         printf("=");
     printf("\nMr. Ashish Kumar\t\t\t\t\t\t\t\tRohit Kumar    \t|\n");

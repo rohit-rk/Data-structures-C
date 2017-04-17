@@ -4,7 +4,7 @@ void arraysum()
 {
     int  i , n , sum = 0 ;
     int * a ;
-    system("cls");
+    system("clear");
     printf("\t\t\t\tARRAY SUM PROGRAM \n " ) ;
     printf(" Enter the size of array A \n " ) ;
     scanf("%d" , &n ) ;

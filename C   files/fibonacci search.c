@@ -49,7 +49,7 @@ int fibonacciSearch(int arr[],int n, int x)
 
 int main(void)
 {
-    system("cls");
+    system("clear");
     printf ("\t\t\t\tFIBONACCI SEARCH\n");
     int i, n, item, arr[MAX], index;
     printf("Enter the number of elements : ");

@@ -27,7 +27,7 @@ main( )
 {
     int choice,num;
     struct node *root=NULL;
-    system("cls");
+    system("clear");
     printf("\t\t\t\tBinary Search Tree(Threaded)\n");
     while(1)
     {
@@ -43,35 +43,35 @@ main( )
         switch(choice)
         {
         case 1:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tBinary Search Tree(Threaded)\n");
             printf("Enter the number to be inserted : ");
             scanf("%d",&num);
             root = insert(root,num);
             break;
         case 2:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tBinary Search Tree(Threaded)\n");
             printf("Enter the number to be deleted : ");
             scanf("%d",&num);
             root = del(root,num);
             break;
         case 3:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tBinary Search Tree(Threaded)\n");
             inorder(root);
             break;
         case 4:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tBinary Search Tree(Threaded)\n");
             preorder(root);
             break;
         case 5:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tBinary Search Tree(Threaded)\n");
             exit(1);
         default:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tBinary Search Tree(Threaded)\n");
             printf("Wrong choice\n");
         }/*End of switch */

@@ -17,7 +17,7 @@ int isFull();
 main()
 {
     int choice,item;
-    system("cls");
+    system("clear");
     printf ("\t\t\t\tDEQUEUE OPERATION\n");
     while(1)
     {
@@ -33,40 +33,40 @@ main()
         switch(choice)
         {
         case 1:
-            system("cls");
+            system("clear");
             printf ("\t\t\t\tDEQUEUE OPERATION\n");
             printf("Input the element for adding in queue : ");
             scanf("%d",&item);
             insert_frontEnd(item);
             break;
         case 2:
-            system("cls");
+            system("clear");
             printf ("\t\t\t\tDEQUEUE OPERATION\n");
             printf("Input the element for adding in queue : ");
             scanf("%d",&item);
             insert_rearEnd(item);
             break;
         case 3:
-            system("cls");
+            system("clear");
             printf ("\t\t\t\tDEQUEUE OPERATION\n");
             printf("Element deleted from front end is : %d\n",delete_frontEnd());
             break;
         case 4:
-            system("cls");
+            system("clear");
             printf ("\t\t\t\tDEQUEUE OPERATION\n");
             printf("Element deleted from rear end is : %d\n",delete_rearEnd());
             break;
         case 5:
-            system("cls");
+            system("clear");
             printf ("\t\t\t\tDEQUEUE OPERATION\n");
             display();
             break;
         case 6:
-            system("cls");
+            system("clear");
             printf ("\t\t\t\tDEQUEUE OPERATION\n");
             exit(1);
         default:
-            system("cls");
+            system("clear");
             printf ("\t\t\t\tDEQUEUE OPERATION\n");
             printf("Wrong choice\n");
         }/*End of switch*/

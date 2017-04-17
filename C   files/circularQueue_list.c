@@ -29,30 +29,30 @@ main()
         switch(choice)
         {
         case 1:
-            system("cls");
+            system("clear");
             printf ("\t\t\t\tImplementation of Circular Queue with Linked list\n");
             printf("Input the element for adding in queue : ");
             scanf("%d",&item);
             insert(item);
             break;
         case 2:
-            system("cls");
+            system("clear");
             printf ("\t\t\t\tImplementation of Circular Queue with Linked list\n");
             item=del();
             printf("Deleted element is  %d\n",item);
             break;
         case 3:
-            system("cls");
+            system("clear");
             printf ("\t\t\t\tImplementation of Circular Queue with Linked list\n");
             printf("Element at the front is %d\n",peek());
             break;
         case 4:
-            system("cls");
+            system("clear");
             printf ("\t\t\t\tImplementation of Circular Queue with Linked list\n");
             display();
             break;
         case 5:
-            system("cls");
+            system("clear");
             printf ("\t\t\t\tImplementation of Circular Queue with Linked list\n");
             return;
             break;

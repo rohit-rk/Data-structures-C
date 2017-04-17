@@ -2,7 +2,7 @@ programs_list()
 {
     int i;
     int choicelink;
-    system("cls");
+    system("clear");
     for(i=0;i<105;i++)
         printf("=");
     printf("\n\t\t\t\tLINKED LIST\n");
@@ -19,17 +19,17 @@ programs_list()
         switch(choicelink)
         {
         case 1:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tLINKED LIST\n");
             linkedlist_s();
             break;
         case 2:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tLINKED LIST\n");
             linkedlist_d();
             break;
         case 3:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tLINKED LIST\n");
             linkedlist_c();
             break;
@@ -38,7 +38,7 @@ programs_list()
             break;
         }
         system("pause");
-        system("cls");
+        system("clear");
     }
 }
 
@@ -46,7 +46,7 @@ programs_stack()
 {
     int i;
     int choicestack;
-    system("cls");
+    system("clear");
     for(i=0;i<105;i++)
         printf("=");
     printf("\n\t\t\t\tSTACKS\n");
@@ -64,22 +64,22 @@ programs_stack()
         switch(choicestack)
         {
         case 1:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tSTACKS\n");
             stack_a();
             break;
         case 2:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tSTACKS\n");
             stack_l();
             break;
         case 3:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tSTACKS\n");
             stack_2();
             break;
         case 4:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tSTACKS\n");
             polish();
             break;
@@ -88,7 +88,7 @@ programs_stack()
             break;
         }
         system("pause");
-        system("cls");
+        system("clear");
     }
 }
 
@@ -96,7 +96,7 @@ program_queue()
 {
     int i;
     int choicequeue;
-    system("cls");
+    system("clear");
     for(i=0;i<105;i++)
         printf("=");
     printf("\n\t\t\t\tQUEUES\n");
@@ -115,27 +115,27 @@ program_queue()
         switch(choicequeue)
         {
         case 1:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tQUEUES\n");
             queue_a();
             break;
         case 2:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tQUEUES\n");
             queue_l();
             break;
         case 3:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tQUEUES\n");
             cqueue_a();
             break;
         case 4:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tQUEUES\n");
             cqueue_l();
             break;
         case 5:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tQUEUES\n");
             dq();
             break;
@@ -144,14 +144,14 @@ program_queue()
             break;
         }
         system("pause");
-        system("cls");
+        system("clear");
     }
 }
 program_sort()
 {
     int i;
     int choicesort;
-    system("cls");
+    system("clear");
     for(i=0;i<105;i++)
         printf("=");
     printf("\n\t\t\t\tSORTING TECHNIQUES\n");
@@ -171,32 +171,32 @@ program_sort()
         switch(choicesort)
         {
         case 1:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tSORTING TECHNIQUES\n");
             bubblesort();
             break;
         case 2:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tSORTING TECHNIQUES\n");
             selectionsort();
             break;
         case 3:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tSORTING TECHNIQUES\n");
             insertionsort();
             break;
         case 4:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tSORTING TECHNIQUES\n");
             mergesort();
             break;
         case 5:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tSORTING TECHNIQUES\n");
             quicksort();
             break;
         case 6:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tSORTING TECHNIQUES\n");
             heapsort();
             break;
@@ -205,14 +205,14 @@ program_sort()
             break;
         }
         system("pause");
-        system("cls");
+        system("clear");
     }
 }
 program_search()
 {
     int i;
     int choicesearch;
-    system("cls");
+    system("clear");
     for(i=0;i<105;i++)
         printf("=");
     printf("\n\t\t\t\tSEARCHING TECHNIQUES\n");
@@ -229,17 +229,17 @@ program_search()
         switch(choicesearch)
         {
         case 1:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tSEARCHING TECHNIQUES\n");
             linearsearch();
             break;
         case 2:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tSEARCHING TECHNIQUES\n");
             binarysearch();
             break;
         case 3:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tSEARCHING TECHNIQUES\n");
             fibonaccisearch();
             break;
@@ -248,14 +248,14 @@ program_search()
             break;
         }
         system("pause");
-        system("cls");
+        system("clear");
     }
 }
 program_trees()
 {
     int i;
     int choicetree;
-    system("cls");
+    system("clear");
     for(i=0;i<105;i++)
         printf("=");
     printf("\n\t\t\t\tTREES\n");
@@ -275,40 +275,40 @@ program_trees()
         switch(choicetree)
         {
         case 1:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tTREES\n");
             binarytree();
             break;
         case 2:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tTREES\n");
             bst();
             break;
         case 3:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tTREES\n");
             threaded();
             break;
         case 4:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tTREES\n");
             expressiontree();
             break;
         case 5:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tTREES\n");
             heaptree();
             break;
         case 6:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tTREES\n");
             avl();
             break;
         case 7:
-            main();
+            return;
             break;
         }
         system("pause");
-        system("cls");
+        system("clear");
     }
 }

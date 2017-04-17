@@ -34,7 +34,7 @@ void vect()
     vector_add(&v, "first");
     vector_add(&v, "Vector");
     vector_add(&v, "Programme");
-    system("cls");
+    system("clear");
     printf("\t\t\t\tVECTOR OPERATION PROGRAM \n " ) ;
     for (i = 0; i < vector_total(&v); i++)
         printf("%s ", (char *) vector_get(&v, i));

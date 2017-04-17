@@ -3,7 +3,7 @@
 int linearSearch(int arr[], int n, int item);
 main()
 {
-    system("cls");
+    system("clear");
     printf ("\t\t\t\tLINEAR SEARCH\n");
 	int i, n, item, arr[MAX], index;
 	printf("Enter the number of elements : ");
@@ -21,7 +21,7 @@ main()
 		printf("%d not found in array\n", item);
 	else
 		printf("%d found at position %d\n", item, index+1);
-}     //same main just replace LinearSearch(…) by the type of search
+}     //same main just replace LinearSearch(ï¿½) by the type of search
 int linearSearch(int arr[], int n, int item)
 {
 	int i=0;

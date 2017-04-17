@@ -262,38 +262,38 @@ void linkedlist_d()
         switch(ch)
         {
         case 1:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tDOUBLE LINKED LIST\n");
             start=create_list_d(start);
             break;
         case 2:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tDOUBLE LINKED LIST\n");
             display_d(start);
             break;
         case 3:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tDOUBLE LINKED LIST\n");
             printf("Enter the element to be searched : ");
             scanf("%d",&data);
             search_d(start,data);
             break;
         case 4:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tDOUBLE LINKED LIST\n");
             printf("Enter the element to be inserted : ");
             scanf("%d",&data);
             start=addatbeg_d(start,data);
             break;
         case 5:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tDOUBLE LINKED LIST\n");
             printf("Enter the element to be inserted : ");
             scanf("%d",&data);
             start=addatend_d(start,data);
             break;
         case 6:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tDOUBLE LINKED LIST\n");
             printf("Enter the element to be inserted : ");
             scanf("%d",&data);
@@ -302,7 +302,7 @@ void linkedlist_d()
             start=addafter_d(start,data,item);
             break;
         case 7:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tDOUBLE LINKED LIST\n");
             printf("Enter the element to be inserted : ");
             scanf("%d",&data);
@@ -312,14 +312,14 @@ void linkedlist_d()
             break;
 
         case 8:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tDOUBLE LINKED LIST\n");
             printf("Enter the element to be deleted : ");
             scanf("%d",&data);
             start=del_d(start, data);
             break;
         case 9:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tDOUBLE LINKED LIST\n");
             start=reverse_d(start);
             break;
@@ -327,7 +327,7 @@ void linkedlist_d()
             return;
             break;
         default:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tDOUBLE LINKED LIST\n");
             printf("Wrong choice\n");
         }

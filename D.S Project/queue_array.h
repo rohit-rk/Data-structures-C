@@ -26,30 +26,30 @@ void queue_a()
         switch(choice)
         {
         case 1:
-            system("cls");
+            system("clear");
             printf ("\t\t\t\tQUEUE OPERATION\n");
             printf("Input the element for adding in queue : ");
             scanf("%d",&item);
             insert_qa(item);
             break;
         case 2:
-            system("cls");
+            system("clear");
             printf ("\t\t\t\tQUEUE OPERATION\n");
             item=del_qa();
             printf("Deleted element is  %d\n",item);
             break;
         case 3:
-            system("cls");
+            system("clear");
             printf ("\t\t\t\tQUEUE OPERATION\n");
             printf("Element at the front is %d\n",peek_qa());
             break;
         case 4:
-            system("cls");
+            system("clear");
             printf ("\t\t\t\tQUEUE OPERATION\n");
             display_qa();
             break;
         case 5:
-            system("cls");
+            system("clear");
             printf ("\t\t\t\tQUEUE OPERATION\n");
             return;
             break;

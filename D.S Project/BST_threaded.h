@@ -27,7 +27,7 @@ void threaded()
 {
     int choice,num;
     struct node *root=NULL;
-    system("cls");
+    system("clear");
     printf("\t\t\t\tBinary Search Tree(Threaded)\n");
     while(1)
     {
@@ -44,39 +44,39 @@ void threaded()
         switch(choice)
         {
         case 1:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tBinary Search Tree(Threaded)\n");
             printf("Enter the number to be inserted : ");
             scanf("%d",&num);
             root = insert_thread(root,num);
             break;
         case 2:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tBinary Search Tree(Threaded)\n");
             printf("Enter the number to be deleted : ");
             scanf("%d",&num);
             root = del_thread(root,num);
             break;
         case 3:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tBinary Search Tree(Threaded)\n");
             inorder_thread(root);
             break;
         case 4:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tBinary Search Tree(Threaded)\n");
             preorder_thread(root);
             break;
         case 5:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tBinary Search Tree(Threaded)\n");
             exit(1);
         case 6:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tBinary Search Tree(Threaded)\n");
             return;
         default:
-            system("cls");
+            system("clear");
             printf("\t\t\t\tBinary Search Tree(Threaded)\n");
             printf("Wrong choice\n");
         }/*End of switch */

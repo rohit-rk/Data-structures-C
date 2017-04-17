@@ -15,7 +15,7 @@ stack_l()
     int item,ch;
     while(1)
     {
-        system("cls");
+        system("clear");
         printf ("\t\t\t\tImplementation of Stack with Linked list\n");
         printf("\n 1 for push");
         printf("\n 2 for pop");
@@ -27,33 +27,33 @@ stack_l()
         switch(ch)
         {
         case 1:
-            system("cls");
+            system("clear");
             printf ("\t\t\t\tImplementation of Stack with Linked list\n");
             printf("enter the element to be pushed\n");
             scanf("%d",&item);
             push_sl(item);
             break;
         case 2:
-            system("cls");
+            system("clear");
             printf ("\t\t\t\tImplementation of Stack with Linked list\n");
             item=pop_sl();
             printf("popped element is %d",item);
             getch();
             break;
         case 3:
-            system("cls");
+            system("clear");
             printf ("\t\t\t\tImplementation of Stack with Linked list\n");
             printf("the top item is %d",peek_sl());
             getch();
             break;
         case 4:
-            system("cls");
+            system("clear");
             printf ("\t\t\t\tImplementation of Stack with Linked list\n");
             display_sl();
             getch();
             break;
         case 5:
-            system("cls");
+            system("clear");
             printf ("\t\t\t\tImplementation of Stack with Linked list\n");
             return;
         }

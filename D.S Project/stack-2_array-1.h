@@ -115,21 +115,21 @@ void stack_2()
     int k,item;
     while(1)
     {
-        system("cls");
+        system("clear");
         printf ("\t\t\t\tImplementation Two Stacks using an Array\n");
         printf("1.push in stack 1\n2.pop in stack 1\n3.display stack 1\n4.push in stack 2.\n5.pop in stack 2\n6.display stack 2\n7.To go back\n");
         scanf("%d",&k);
         switch(k)
         {
         case 1:
-            system("cls");
+            system("clear");
             printf ("\t\t\t\tImplementation Two Stacks using an Array\n");
             printf("enter the element\n");
             scanf("%d",&item);
             push2s(item);
             break;
         case 2:
-            system("cls");
+            system("clear");
             printf ("\t\t\t\tImplementation Two Stacks using an Array\n");
             if(isempty())
             {
@@ -139,20 +139,20 @@ void stack_2()
             printf("element removed is %d\n",pop2s());
             break;
         case 3:
-            system("cls");
+            system("clear");
             printf ("\t\t\t\tImplementation Two Stacks using an Array\n");
             display2s(top);
             getch();
             break;
         case 4:
-            system("cls");
+            system("clear");
             printf ("\t\t\t\tImplementation Two Stacks using an Array\n");
             printf("enter the element\n");
             scanf("%d",&item);
             push2s_1(item);
             break;
         case 5:
-            system("cls");
+            system("clear");
             printf ("\t\t\t\tImplementation Two Stacks using an Array\n");
             if(isempty1())
             {
@@ -162,13 +162,13 @@ void stack_2()
             printf("element removed is %d\n",pop2s_1());
             break;
         case 6:
-            system("cls");
+            system("clear");
             printf ("\t\t\t\tImplementation Two Stacks using an Array\n");
             display2s1(top1);
             getch();
             break;
         case 7:
-            system("cls");
+            system("clear");
             printf ("\t\t\t\tImplementation Two Stacks using an Array\n");
             return;
         }

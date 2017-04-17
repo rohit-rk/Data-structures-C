@@ -30,7 +30,7 @@ main()
     long int value;
     char ch;
     top=-1;
-    system("cls");
+    system("clear");
     printf ("\t\t\t\tPOLISH NOTATION and EVALUATION\n");
     printf("Enter infix : ");
     gets(infix);
