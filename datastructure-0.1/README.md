@@ -1,6 +1,6 @@
 
 **This is my DataStructure Project main repository.**
-__You can install on your linux machine by typing following commands__
+__You can Build and Install this on your linux machine by typing following commands__
 
 
 **1.  ./configure**
