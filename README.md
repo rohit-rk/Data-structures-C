@@ -10,7 +10,7 @@ all C files capable of working as an independent module explaining the implement
 files that are created while working on this project.
 __Project zipped(datastructure-0.1).zip__ file is a commpressed version of the project.
 
-**Building and Installing the Aeolus Recipe**
+**Building and Installing**
 
 The main project directory is __datastructure-0.1__. To Build and Install the Project clone
 the repository, move into the __datastructure-0.1__ directory and in terminal type following commands:
